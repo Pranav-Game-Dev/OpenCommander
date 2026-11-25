@@ -1,4 +1,4 @@
-<img width="256" height="256" alt="01-isometric-command-cube" src="https://github.com/user-attachments/assets/12ab31eb-aa0c-43db-b6a3-9bb7dbf0af6d" />![Uploading 01-isometric-comman<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+<img width="256" height="256" alt="01-isometric-command-cube" src="https://github.com/user-attachments/assets/7773e813-a0fb-43a7-83df-b77a140bd924" /><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
   <defs>
     <linearGradient id="iso_top" x1="64" y1="40" x2="192" y2="128" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#34D399"/>
@@ -30,8 +30,7 @@
   <path d="M 148 112 L 174 126 L 148 140" stroke="#ECFDF5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="178" y1="142" x2="194" y2="142" stroke="#34D399" stroke-width="10" stroke-linecap="round"/>
 </svg>
-d-cube.svg…]()
-
+isometric-command-cube.svg…]()
 
 
 # OpenCommander
