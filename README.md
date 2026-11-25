@@ -30,7 +30,6 @@
   <path d="M 148 112 L 174 126 L 148 140" stroke="#ECFDF5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="178" y1="142" x2="194" y2="142" stroke="#34D399" stroke-width="10" stroke-linecap="round"/>
 </svg>
-isometric-command-cube.svg…]()
 
 
 # OpenCommander
