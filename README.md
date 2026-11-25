@@ -1,3 +1,39 @@
+<img width="256" height="256" alt="01-isometric-command-cube" src="https://github.com/user-attachments/assets/12ab31eb-aa0c-43db-b6a3-9bb7dbf0af6d" />![Uploading 01-isometric-comman<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <defs>
+    <linearGradient id="iso_top" x1="64" y1="40" x2="192" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="iso_left" x1="56" y1="88" x2="128" y2="216" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="iso_right" x1="128" y1="112" x2="200" y2="196" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6EE7B7"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Neutral Backdrop -->
+  <rect x="20" y="20" width="216" height="216" rx="52" fill="#090D16"/>
+  <rect x="21" y="21" width="214" height="214" rx="51" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Isometric Open-Front Cube (Top & Left Planes Forming Structural C) -->
+  <!-- Top Plane -->
+  <polygon points="128,48 196,86 128,124 60,86" fill="url(#iso_top)"/>
+  <!-- Left Vertical Plane -->
+  <polygon points="60,86 128,124 128,204 60,166" fill="url(#iso_left)"/>
+  <!-- Bottom Base Rim -->
+  <polygon points="128,204 196,166 196,144 128,182" fill="url(#iso_right)"/>
+
+  <!-- Floating Command Prompt > Inside the Open Isometric Cavity -->
+  <path d="M 148 112 L 174 126 L 148 140" stroke="#ECFDF5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="178" y1="142" x2="194" y2="142" stroke="#34D399" stroke-width="10" stroke-linecap="round"/>
+</svg>
+d-cube.svg…]()
+
+
+
 # OpenCommander
 
 **Free, self-hosted, quota-free remote control of your Windows PC for any AI app.**
