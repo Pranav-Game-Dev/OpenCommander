@@ -1,0 +1,5 @@
+{
+  "name": "@opencommander/gateway", "version": "0.1.0", "private": true, "type": "module",
+  "scripts": { "dev": "wrangler dev --local --port 8787", "deploy": "wrangler deploy" },
+  "dependencies": { "@opencommander/shared": "*", "@cloudflare/workers-oauth-provider": "1.2.4", "@modelcontextprotocol/sdk": "1.32.2", "zod": "4.6.7" }
+}

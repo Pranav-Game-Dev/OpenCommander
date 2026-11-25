@@ -1,0 +1,9 @@
+{
+  "name": "dc-free-gateway",
+  "main": "src/worker.ts",
+  "compatibility_date": "2026-06-01",
+  "compatibility_flags": ["global_fetch_strictly_public"],
+  "durable_objects": { "bindings": [{ "name": "HUB", "class_name": "DeviceHub" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["DeviceHub"] }],
+  "kv_namespaces": [{ "binding": "OAUTH_KV" }]
+}

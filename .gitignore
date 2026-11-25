@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.wrangler/
+.dev.vars
+*.log
+*.bak
+*.flag
+device.json
+# personal / local-only
+mcp-servers.json
+mcp-servers.json.*
+!mcp-servers.example.json
+Unity_skills/
+blender_mcp_official/

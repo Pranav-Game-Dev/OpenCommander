@@ -1,0 +1,3 @@
+# Copy to .dev.vars for local dev (never commit .dev.vars). Placeholders only.
+ADMIN_TOKEN=change-me-long-random-admin-token
+OWNER_PASSPHRASE=change-me-long-random-passphrase

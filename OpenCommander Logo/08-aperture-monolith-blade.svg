@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <defs>
+    <linearGradient id="blade_top" x1="68" y1="68" x2="188" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="blade_bottom" x1="68" y1="188" x2="188" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#64748B"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+    <linearGradient id="spark_core" x1="154" y1="108" x2="198" y2="148" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Minimalist Deep Graphite Squircle -->
+  <rect x="20" y="20" width="216" height="216" rx="52" fill="#0A0A0C"/>
+  <rect x="21" y="21" width="214" height="214" rx="51" stroke="#27272A" stroke-width="1.5"/>
+
+  <!-- Upper Precision Monolith Blade (Forms top half of C + top stroke of >) -->
+  <path d="M 152 68 L 96 68 L 68 118 L 116 118 L 136 92 L 178 118 L 192 98 Z"
+        fill="url(#blade_top)"/>
+
+  <!-- Lower Precision Monolith Blade (Forms bottom half of C + bottom stroke of >) -->
+  <path d="M 152 188 L 96 188 L 68 138 L 116 138 L 136 164 L 178 138 L 192 158 Z"
+        fill="url(#blade_bottom)"/>
+
+  <!-- Emerald Execution Diamond Focused in the Aperture Gap -->
+  <polygon points="154,128 172,114 190,128 172,142" fill="url(#spark_core)"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <defs>
+    <linearGradient id="mobius_left" x1="56" y1="68" x2="148" y2="188" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="65%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <linearGradient id="mobius_right" x1="112" y1="72" x2="204" y2="184" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+    <linearGradient id="mobius_fold_shadow" x1="98" y1="106" x2="144" y2="152" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Pure Obsidian Squircle -->
+  <rect x="20" y="20" width="216" height="216" rx="52" fill="#06080F"/>
+  <rect x="21" y="21" width="214" height="214" rx="51" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Left Sculpted Loop (The 'O' / Open Portal Shell) -->
+  <path d="M 146 72 C 92 72, 62 100, 62 128 C 62 156, 92 184, 146 184 L 130 158 C 98 158, 86 144, 86 128 C 86 112, 98 98, 130 98 Z"
+        fill="url(#mobius_left)"/>
+
+  <!-- Interlocking Command Wedge (The 'C' / '>' Thrust Plane Passing Through) -->
+  <path d="M 118 82 L 194 128 L 118 174 L 134 148 L 166 128 L 134 108 Z"
+        fill="url(#mobius_right)"/>
+
+  <!-- Depth Shadow Where the Command Plane Cuts Across the Loop -->
+  <path d="M 118 82 L 144 98 L 130 108 L 112 96 Z" fill="url(#mobius_fold_shadow)"/>
+  <path d="M 118 174 L 144 158 L 130 148 L 112 160 Z" fill="url(#mobius_fold_shadow)"/>
+</svg>

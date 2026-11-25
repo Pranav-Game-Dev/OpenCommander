@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "example-stdio": {
+      "command": "C:\\path\\to\\your\\mcp-server.exe",
+      "args": ["--your-flag"],
+      "skillsDir": "C:\\path\\to\\optional\\skills-folder",
+      "notes": "Optional text shown to the AI. Copy this file to mcp-servers.json (git-ignored) and edit. skillsDir is optional: a folder of SKILL.md files the AI should read before using this app."
+    },
+    "example-http": {
+      "type": "http",
+      "url": "http://localhost:1234/mcp",
+      "notes": "Local MCP server reachable over HTTP."
+    }
+  }
+}
